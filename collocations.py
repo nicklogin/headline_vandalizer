@@ -5,7 +5,7 @@ from scipy.sparse import csr_matrix
 from tqdm import tqdm as tqdm_notebook
 
 ## "Внутренние" импорты
-from ngrams import NGramMatrix
+from .ngrams import NGramMatrix
 
 class CollocationMetric:
     def __init__(self, metric):
