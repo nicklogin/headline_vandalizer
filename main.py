@@ -19,10 +19,10 @@ from transformers import BertForMaskedLM, BertTokenizer
 from tqdm import tqdm
 
 ## Local imports:
-from collocations import CollocateMatrix
-from preprocessing import Tokenizer
-from nn_utils import UnsupervisedBatchIterator, make_predictions
-from utils import inflect, last_underscore_split
+from .collocations import CollocateMatrix
+from .preprocessing import Tokenizer
+from .nn_utils import UnsupervisedBatchIterator, make_predictions
+from .utils import inflect, last_underscore_split
 
 ## TO DO:
 ## Встраивание предсказанного слова в предложение в GensimCollocateReplacer- Done
