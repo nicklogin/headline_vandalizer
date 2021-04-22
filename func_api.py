@@ -1,6 +1,6 @@
 import numpy as np
 
-from word_change import most_distant_same_pos
+from .word_change import most_distant_same_pos
 
 def replace_collocates(s, cm, wv_model, dist_thresh=0.65, colloc_thresh=2.0):
     '''Провести юморизацию предложения
