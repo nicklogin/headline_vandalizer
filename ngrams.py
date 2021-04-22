@@ -11,7 +11,7 @@ from tqdm import tqdm as tqdm_notebook
 from functools import lru_cache
 
 ## "Внутренние" импорты
-from utils import two_way_map
+from .utils import two_way_map
 
 log = open('Log.txt','w',encoding='utf-8')
 
